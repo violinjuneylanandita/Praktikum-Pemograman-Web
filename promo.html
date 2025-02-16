@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Promo - Beauty Makeups</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body {
+        font-family: "Times New Roman", serif;
+      }
+      .navbar, .navbar a {
+        background-color: pink !important;
+        color: white !important;
+      }
+      .promo-card {
+        text-align: center;
+        padding: 15px;
+      }
+      .promo-title {
+        font-size: 26px;
+        font-weight: bold;
+        color: #eeb1d0;
+        text-align: center;
+        margin-bottom: 10px; 
+      }
+      .promo-discount {
+        font-size: 14px;
+        font-weight: bold;
+        color: #fdfafc;
+        padding: 8px 15px;
+        border: 2px solid #eba6c9;
+        border-radius: 10px;
+        background-color: #f28cac;
+        display: inline-block;
+        margin-top: 10px; 
+        text-align: center;
+      }
+      .promo-arrow {
+        font-size: 24px;
+        font-weight: bold;
+        color: red;
+      }
+      .promo-card img {
+        width: 320px;
+        height: auto;
+        margin-bottom: 10px;
+        border: 3px solid pink;
+        border-radius: 10px;
+      }
+      .price-box {
+        display: inline-block;
+        padding: 8px 12px;
+        border: 2px solid #e6a0c3;
+        border-radius: 10px;
+        background-color: #f8f9fa;
+        margin: 5px;
+        font-weight: bold;
+        color: #eaa0c5;
+        font-size: 14px;
+      }
+      .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Beauty Makeups</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li> 
+            <li class="nav-item"><a class="nav-link" href="produk.html">Produk</a></li> 
+            <li class="nav-item"><a class="nav-link active" href="promo.html">Promo</a></li> 
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li> 
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="container mt-5">
+      <h2 class="promo-title">PROMO SPECIAL WEEKEND</h2>
+      <div class="row">
+        <div class="col-12 text-center">
+          <div class="promo-discount">Dapatkan Diskon 20% pada barang tertentu di hari weekend!</div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-5">
+          <div class="promo-card">
+            <h5 class="promo-title">Cushion</h5>
+            <img src="cushion.jpg" alt="Cushion">
+            <div>
+              <div class="price-box">Rp. 160.000</div>
+              <span class="promo-arrow">→</span>
+              <div class="price-box">Rp. 128.000</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="promo-card">
+            <h5 class="promo-title">Liptint</h5>
+            <img src="liptint.jpg" alt="Liptint">
+            <div>
+              <div class="price-box">Rp. 80.000</div>
+              <span class="promo-arrow">→</span>
+              <div class="price-box">Rp. 60.000</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
